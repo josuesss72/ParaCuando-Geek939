@@ -16,7 +16,7 @@ const ConfigPage: NextPageWithLayout = () => {
         <div className="w-full max-w-[1325px] h-full flex flex-col mx-auto">
           <section className="h-[50%] flex flex-col justify-center gap-8">
             <h3 className="text-3xl">Contact information</h3>
-            <div className="grid grid-cols-4 grid-rows-1 h-[60%]">
+            <div className="grid grid-cols-4 grid-rows-1 h-full max-h-[300px]">
               <div className="flex flex-col gap-6">
                 <div className="w-full  max-w-[250px] h-full bg-gray-300 rounded-lg flex justify-center items-center">
                   <button>
