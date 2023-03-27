@@ -3,6 +3,7 @@ import Logo from '../components/assets/logo/Logo';
 import { Layout } from '../components/layout/Layout';
 import { useCategories } from '../lib/services/categories.services';
 
+import ModalVotes from '../components/modals/ModalVotes';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
@@ -13,6 +14,7 @@ const Home: NextPageWithLayout = () => {
   return (
     <div>
       {/* HERO SECTION */}
+      <ModalVotes />
       <div className='min-h-[488px] flex justify-center items-center flex-col bg-[url("/hero-banner.png")] bg-cover bg-center app-banner -mt-4 gap-5'>
         <div>
           <Logo />
